@@ -1,0 +1,544 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+header{
+  width: 100%;
+  height: 945px;
+/*  background: url('images/fon.jpg') no-repeat center ;
+  background: url('video/ocean.jpg') no-repeat center;
+  background-size: cover;*/
+  position: relative;
+}
+.logo{
+  position: absolute;
+  margin-left: 18%;
+  margin-top: 3%;
+}
+
+.blockInfo{
+  width: 100%;
+  height: 1000px;
+  background:  #121212;;
+}
+nav{
+  position: relative;
+}
+nav > ul{
+  display: none;
+  position: absolute;
+  margin-left: 79%;
+  margin-top: 6%;
+
+}
+nav a{
+  text-decoration: none;
+}
+nav li{
+  list-style-type: none;
+  color: white;
+  margin-left: -15px;
+  margin-top: 10px;
+}
+nav:hover ul{
+  display: block;
+}
+.menu{
+  position: absolute;
+  margin-left: 78%;
+  margin-top: 3%;
+  width: 50px;
+  height: 50px;
+}
+.textHeader{
+  position: absolute;
+  margin-left: 29%;
+  margin-top: 20%;
+
+}
+.textHeader h1{
+  color:  #ffffff;
+  font-size: 100px;
+  font-weight: 900;
+  text-align: center;
+}
+.textHeader p{
+  color:  #ffffff;
+  font-size: 34px;
+  line-height: 26px;
+  text-align: center;
+}
+.blockInfo{
+  position: relative;
+  color: white;
+}
+.blockInfo a{
+  text-decoration: none;
+}
+.blockInfo h2{
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 4%;
+  color:  #ffffff;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: left;
+}
+.threeBlockLine1{
+  position: absolute;
+  margin-top: 10%;
+  margin-left: 20%;
+}
+.infoBlockLine1{
+  width: 400px;
+  height: 250px;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+.infoBlockLine1 img{
+  position: absolute;
+  margin-left: 2%;
+}
+.infoBlockLine1 h3{
+  position: absolute;
+  margin-top: 70px;
+  color:  #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: left;
+}
+.infoBlockLine1 p{
+  position: absolute;
+  margin-top: 115px;
+  color:  #757575;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+}
+.threeBlockLine2{
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 20%;
+}
+.threeBlockLine3{
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 20%;
+}
+.blockProject{
+  width: 100%;
+  height: 600px;
+  background:  #121212;;
+}
+.project1{
+  width: 20%;
+  height: 500px;
+  outline: 1px solid white;
+  float: left;
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+.project1 img{
+  float: left;
+  width: 100%;
+  height: 500px;
+}
+.hoverProject1{
+  transition: 1s;
+  opacity:0;
+  background: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+  width: 100%;
+  height: 120px;
+  position:absolute;
+  bottom:0;
+  right:0;
+}
+.hoverProject1 h3{
+  margin-top: 20px;
+  color:  #ffffff;
+  font-size: 26px;
+  font-weight: 700;
+  text-align: center;
+}
+.hoverProject1 p{
+  margin-top: 20px;
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+}
+.hoverProject1 a{
+  text-decoration-color: white;
+}
+.hoverProject1 a:hover{
+    text-decoration-color: white;
+    text-decoration: inherit;
+}
+.project1:hover .hoverProject1{
+  opacity:1;
+  display: block;
+  transition: 1s;
+}
+.viewmore{
+  position: absolute;
+  transition: 1s;
+  opacity: 0.5;
+  width: 50%;
+  height: 50px;
+  margin-left: 25%;
+  background: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+}
+.viewmore:hover{
+  transition: 1s;
+  opacity: 1;
+}
+.viewmore p{
+  color:  #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 15px;
+}
+.viewmore a{
+  text-decoration: none;
+}
+.projects{
+  position: relative;
+}
+.howwework{
+  background:  #121212;;
+  width: 100%;
+  height: 500px;
+}
+.howwework{
+  color: white;
+  position: relative;
+}
+.hwwInfo{
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  margin-right: -50%;
+}
+.hwwInfo div{
+  width: 370px;
+  height: 200px;
+  float: left;
+  margin-right: 30px;
+}
+.hwwInfo > h3{
+  color:  #ffffff;
+  font-size: 36px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+}
+.hwwInfo div h3{
+  margin-top: 20px;
+  font-family: Montserrat;
+  color:  #ffffff;
+  font-size: 26px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+}
+.hwwInfo h2{
+  margin-top: 20px;
+  color:  #ffffff;
+  font-size: 72px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+}
+.hwwInfo p{
+  margin-top: 10px;
+  color:  #757575;
+  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 26px;/* Приближение из-за подстановки шрифтов */
+  text-align: left;
+}
+.hwwInfo hr{
+  border: none;
+  height: 2px;
+  width: 200px;
+  background: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+  color: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  color: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  color: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  color: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  color: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+}
+footer{
+  height: 700px;
+  background:  #121212;;
+  color: white;
+}
+.message div{
+  margin-top: 5%;
+  height: 80px;
+  outline: 1px solid #505050;;
+  float: left;
+  width: 420px;
+  position: relative;
+
+
+}
+.message div:hover{
+  background: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+  transition: 1s;
+  opacity: 1;
+}
+.message div img{
+  margin-left: 50%;
+  margin-top: 5%;
+}
+.infoFooter{
+  width: 600px;
+  height: 500px;
+}
+.infoFooter h3{
+  color:  #ffffff;
+font-size: 26px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: left
+}
+.infoFooter p{
+  color:  #757575;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+line-height: 26px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+.first{
+  width: 520px;
+  margin-left: 20%;
+  margin-top: 15%;
+  position: absolute;
+}
+.first h3{
+  margin-bottom: 10px;
+}
+.second h3{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.three h3{
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+.second{
+  width: 200px;
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 20%;
+}
+.three{
+  width: 200px;
+  margin-top: 20%;
+  position: absolute;
+  margin-left: 35%;
+}
+form input:required
+{
+	background-color: lightyellow;
+}
+form{
+  width: 570px;
+  position: absolute;
+  margin-left: 60%;
+  margin-top: -15%;
+}
+fieldset{
+  border: none;
+}
+input,
+textarea {
+  outline:none;
+}
+fieldset input{
+  width: 570px;
+  height: 50px;
+  background:  #121212;;
+  outline: none;
+  color: white;
+  font-style: italic;
+  border: none;
+}
+fieldset hr{
+  background-color:  #505050;
+  width: 570px;
+  height: 2px;
+  border: none;
+}
+.contactUS{
+  width: 170px;
+  height: 50px;
+  background: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+  outline: none;
+  border: none;
+  color:  #ffffff;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: center;
+margin-left: 70%;
+margin-top: 10%;
+}
+.downFooter{
+  height: 100px;
+  background: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+  text-align: center;
+  color:  #ffffff;
+  font-size: 14px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 400;
+  line-height: 26px;/* Приближение из-за подстановки шрифтов */
+  text-align: center;
+  margin-top: 10%;
+  padding-top: 5px;
+}
+.downFooter p{
+  margin-top: 25px;
+}
+.ourClient{
+  height: 420px;
+  background: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+  position: relative;
+}
+.ourClient h3{
+  position: absolute;
+  left: 335px;
+  top: 82px;
+  color: white;
+  color:  #ffffff;
+  font-size: 36px;/* Приближение из-за подстановки шрифтов */
+  font-weight: 700;
+  text-align: left;
+}
+.audiojungle2{
+  position: absolute;
+  top: 175px;
+  left: 668px;
+}
+.photodune{
+  position: absolute;
+  top: 175px;
+  left: 950px;
+}
+.grahpicriver{
+  position: absolute;
+  left: 323px;
+  top: 175px;
+}
+.docean{
+  position: absolute;
+  left: 667px;
+  top: 295px;
+}
+.activeden{
+  position: absolute;
+  top: 175px;
+  right: 300px;
+}
+.audiojungle{
+  position: absolute;
+  top:295px;
+  left: 335px;
+}
+.codecanyon{
+  position: absolute;
+  bottom: 94px;
+  left: 950px;
+}
+.grahpicriver2{
+  position: absolute;
+  bottom: 83px;
+  right: 277px;
+}
+.latestPosts{
+  height: 500px;
+  width: 100%;
+  background-color:  #121212;
+  color: white;
+  position: relative;
+}
+.latestPosts > h2{
+  position: absolute;
+  left: 374px;
+  top: 114px;
+  color:  #ffffff;
+font-size: 36px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: left;
+}
+.date{
+  position: relative;
+  width: 293px;
+  height: 400px;
+  float: left;
+  left: 674px;
+  top: 227px;
+  margin-right: 250px;
+}
+.date h2{
+  color:  #ffffff;
+font-size: 72px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: left;
+}
+.date p{
+  margin-top: 20px;
+  color:  #ffffff;
+font-size: 14px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+text-align: left;
+}
+.date h3{
+  margin-top: 20px;
+  color:  #ffffff;
+font-size: 26px;/* Приближение из-за подстановки шрифтов */
+font-weight: 700;
+line-height: 26px;/* Приближение из-за подстановки шрифтов */
+text-align: left;
+}
+.date hr{
+  background: -webkit-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -moz-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -o-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: -ms-linear-gradient(0deg, #dc044d 0%, #ff6a66 100%);
+  background: linear-gradient(90deg, #dc044d 0%, #ff6a66 100%);
+  width: 90px;
+  height: 2px;
+  border: none;
+}

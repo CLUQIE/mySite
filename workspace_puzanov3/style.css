@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400|Raleway:400,500,700,800|Roboto');
+*{
+  margin: 0;
+  padding: 0;
+}
+.firstSlide{
+  height: 1024px;
+  background-image: url('images/fon.jpg');
+  background-repeat: no-repeat !important;
+  background-position: center !important;;
+  background-size: cover !important;
+  position: relative;
+}
+.arrowLeft{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  left: 5%;
+  top: 45%;
+}
+.arrow{
+  display: block;
+  width: 45px;
+  height: 3px;
+  background-color: rgb(140, 140, 140);
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 70%;
+  transform: rotate(45deg);
+  transition: 0.2s;
+}
+.arrow::before{
+  content: "";
+  width: 45px;
+  height: 3px;
+  background-color: rgb(140, 140, 140);
+  position: absolute;
+  transform: rotate(90deg);
+  bottom: 22px;
+  left: -22px;
+  transition: 0.2s;
+}
+.arrowLeft:hover .arrow,
+.arrowLeft:hover .arrow::before{
+  background-color: rgb(199, 178, 153);
+  transition: 0.2s;
+}
+.arrowRight{
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  right: 5%;
+  top: 45%;
+}
+.arrowSecond{
+  display: block;
+  width: 45px;
+  height: 3px;
+  background-color: rgb(140, 140, 140);
+  position: absolute;
+  margin-left: 20%;
+  margin-top: 70%;
+  transform: rotate(-45deg);
+  transition: 0.2s;
+}
+.arrowSecond::before{
+  content: "";
+  width: 45px;
+  height: 3px;
+  background-color: rgb(140, 140, 140);
+  position: absolute;
+  transform: rotate(-90deg);
+  bottom: 21px;
+  left: 21px;
+  transition: 0.2s;
+}
+.arrowRight:hover .arrowSecond,
+.arrowRight:hover .arrowSecond::before{
+  background-color: rgb(199, 178, 153);
+  transition: 0.2s;
+}
+.logo{
+  position: absolute;
+  left: 19.6%;
+  top: 3.9%;
+}
+.logo img{
+  float: left;
+  width: 30%;
+  height: 30%;
+}
+.logo h1{
+  float: left;
+  font-family: 'Raleway', sans-serif;
+  color:  #ffffff;
+  font-size: 2.125rem;
+  font-weight: 100;
+  text-align: right;
+  margin-top: 8px;
+  margin-left: 2px;
+}
+nav{
+  position: absolute;
+  top: 6%;
+  left: 40.4%;
+}
+nav ul a{
+  display: block;
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.2s;
+  margin-right: 25px;
+}
+nav > ul a:hover{
+  font-family: 'Montserrat', sans-serif;
+  color:  #c7b29a;
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+  transition: 0.2s
+}
+nav ul{
+  list-style-type: none;
+}
+.menuBurger{
+  position: absolute;
+
+}
+.menuBurger > li > a{
+  color: white;
+  font-size: 20px;
+  font-weight: 300;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  transition: 0.2s;
+  margin-right: 25px;
+  text-decoration: none;
+}
+.menuBurger{
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.menuBurger > li > ul{
+  display: none;
+}
+.menuBurger li{
+  list-style-type: none;
+}
+@media screen and (max-width: 1024px){
+  .menu {
+    display: none;
+  }
+  .menuBurger{
+    display: block;
+  }
+  .menuBurger >li:hover .hoverMenu{
+    display: block;
+  }
+  .menuBurger > li > ul a{
+    display: block;
+    margin-top: 5px;
+  }
+}
